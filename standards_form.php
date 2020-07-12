@@ -138,6 +138,7 @@ class standards_form extends moodleform {
         $mform->addElement('text', 'timelimit', 'timelimit');
         $mform->setType('timelimit', PARAM_RAW);
         $mform->setDefault('timelimit', 7200);
+        $mform->addHelpButton('timelimit', 'timelimit', 'tool_applyquizstandards');
 
         $this->add_action_buttons(false, get_string('submit', 'tool_applyquizstandards'));
     }

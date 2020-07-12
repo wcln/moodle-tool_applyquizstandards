@@ -22,7 +22,10 @@
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
-$string['pluginname'] = 'Apply Quiz Standards';
-$string['heading'] = 'Apply Quiz Standards';
+$string['pluginname']              = 'Apply Quiz Standards';
+$string['heading']                 = 'Apply Quiz Standards';
 $string['applyquizstandardsintro'] = 'This script will set ALL quiz settings to the standards specified below.';
-$string['submit'] = 'Apply Settings';
+$string['submit']                  = 'Apply Settings';
+$string['timelimit_help']
+                                   = 'The time limit is only set for quizzes which have an empty (not set) time limit. Quizzes with custom time limits are not affected.';
+$string['timelimit']               = 'timelimit';
